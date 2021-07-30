@@ -1,0 +1,120 @@
+<script>
+  export let data, request; // data is mainly being populated from the @elderjs/plugin-markdown
+  const { html, frontmatter } = data;
+  console.log(data, request); 
+</script>
+
+<style>
+  h1 {
+    margin-bottom: 10px;
+  }
+
+  h3 {
+      text-decoration: underline;
+      font-size: 1.1rem; 
+    }
+
+  ul {
+      list-style-type: none;
+      padding-left: 0; 
+  }
+
+  a {
+      text-decoration: none;
+      color: black; 
+      font-size: .9rem;
+  }
+
+  a:hover, a:focus {
+      text-decoration: underline;
+      color: #205730; 
+  }
+
+  .board-container {
+      display: grid;  
+      grid-template-columns: 7.5fr 3fr;
+      grid-column-gap: 50px; 
+  }
+
+  .title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .section-nav {
+      height: 25rem; 
+      border-left: 1px solid black; 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: flex-start;
+      align-content: flex-start;
+      margin-top: 1rem; 
+      margin-left: 1rem; 
+      padding-left: 1rem; 
+    }
+
+  :global(h2) {
+    margin-top: 2rem;
+  }
+
+  :global(pre) {
+    background: #eee;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  :global(blockquote) {
+    margin: 0;
+    background: #ddd;
+    padding: 3px 1.5rem 3px 3rem;
+    position: relative;
+    border-radius: 1rem;
+  }
+  :global(blockquote:after) {
+    content: '>';
+    color: #aaa;
+    font-size: 30px;
+    position: absolute;
+    top: 33%;
+    left: 1rem;
+  }
+
+  :global(blockquote p) {
+    padding: 0;
+  }
+
+
+</style>
+
+<svelte:head>
+  <title>{frontmatter.title}</title>
+  <meta name="description" content={frontmatter.excerpt} />
+  <link href={request.permalink} rel="canonical" />
+</svelte:head>
+<a href="/">&LeftArrow; Home</a>
+
+<div class="title">
+  <h1>{frontmatter.title}</h1>
+  {#if frontmatter.author}<small>By {frontmatter.author}</small>{/if}
+</div>
+
+
+<div class="board-container">
+  <div>
+    {@html html}
+ </div>
+  <div transition class="section-nav">
+    <h3>Assessment Tooling</h3>
+    <ul>
+      <li><a href="/coalition-board-development-survey/">- <em>Coalition Survey</em></a></li>
+      <li><a href="/community-profile/">- <em>Community Profile</em></a></li>
+      <li><a href="/administrator-technology-self-assessment-tool/">- <em>Admin Tech Self-Assessment Tool</em></a></li>
+      <li><a href="/coalition-self-assessment-tool">- <em>Coalition Self-Assessment Tool</em></a></li>
+      <li><a href="/self-assessment-tool">- <em>Assessment Tool Format</em></a></li>
+    </ul>
+ </div>
+</div>
+
+
