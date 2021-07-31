@@ -19,8 +19,8 @@ module.exports = {
   debug: {
     stacks: false,
     hooks: false,
-    performance: false,
-    build: false,
+    performance: true,
+    build: true,
     automagic: false,
   },
   shortcodes: {
