@@ -4,16 +4,14 @@
   "description": "This is a project template for [Elder.js](https://elderguide.com/tech/elderjs/) apps. The template lives at https://github.com/elderjs/template and the Elder.js source is here: https://github.com/elderjs/elderjs",
   "main": "./src/build.js",
   "scripts": {
-    "start": "npm run dev",
-    "build": "node ./src/cleanPublic.js && npm run build:rollup && npm run build:html",
+    "start": "echo 'you have to run npm run dev:server and npm run dev:rollup'",
+    "build": "node ./src/cleanPublic.js && run-s build:* && node ./src/afterBuild.js",
     "build:rollup": "rollup -c",
     "build:html": "node ./src/build.js",
-    "dev": "rollup  -c -w --no-watch.clearScreen",
-    "serve": "node ./src/cleanPublic.js && npm run build:rollup && NODE_ENV=production node ./src/server.js",
-    "esbuild": "node esbuild",
+    "dev:rollup": "rollup  -c -w --no-watch.clearScreen",
+    "dev:server": "nodemon",
     "eslint": "eslint --ext .js .",
-    "eslint:fix": "eslint --fix --ext .js .",
-    "prettier:svelte": "prettier --write --plugin-search-dir=. ./**/*.svelte"
+    "eslint:fix": "eslint --fix --ext .js ."
   },
   "type": "commonjs",
   "engines": {

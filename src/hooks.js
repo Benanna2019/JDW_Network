@@ -54,7 +54,6 @@ const hooks = [
           const outputPath = path.resolve(settings.distDir, relativeToAssetsFolder);
           fs.ensureDirSync(path.parse(outputPath).dir);
           fs.outputFileSync(outputPath, fs.readFileSync(file));
-          console.log(settings)
         }
       });
     },
