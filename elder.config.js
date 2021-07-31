@@ -1,23 +1,32 @@
 require('dotenv').config();
 
 module.exports = {
-  origin: '', // TODO: update this.
-  lang: 'en',
-  srcDir: 'src',
-  distDir: 'public',
-  rootDir: process.cwd(),
+  server: {
+    prefix: '',
+  },
   build: {},
-  prefix: '', // If you want your site to be built within a sub folder within your `distDir` you can use this.
-  server: {},
-  props: {
-    compress: true,
+  locations: {
+    // assets: './public/dist/static/',
+    assets: './public/',
+    public: './public/',
+    svelte: {
+      ssrComponents: './___ELDER___/compiled/',
+      clientComponents: './public/dist/svelte/',
+    },
+    systemJs: '/dist/static/s.min.js',
+    intersectionObserverPoly: '/dist/static/intersection-observer.js',
   },
   debug: {
-    stacks: false, // output details of the stack consolidation process.
-    hooks: false, // outputs the details of each hook as they are run.
-    performance: false, // outputs a full performance report of how long it took to run each page.
-    build: false, // gives additional details about the build process.
+    stacks: false,
+    hooks: false,
+    performance: false,
+    build: false,
     automagic: false,
+  },
+  shortcodes: {
+    // https://elderguide.com/tech/elderjs/#specifications-and-config
+    openPattern: "{{", // Opening pattern for identifying shortcodes in html output.
+    closePattern: "}}", // closing pattern for identifying shortcodes in html output.
   },
   hooks: {
     // disable: ['elderWriteHtmlFileToPublic'], // this is used to disable internal hooks. Uncomment this hook to disabled writing your files during build.
