@@ -102,7 +102,7 @@
     {@html html}
  </div>
   <div class="section-nav">
-    <h3>Grant Writers</h3>
+    <h3>Public Relations Articles</h3>
     <ul>
       <li><a href="/comprehensive-public-relations-plan/">- <em>Comprehensive Public Relations Plan</em></a></li>
       <li><a href="/media-plan/">- <em>Media Plan</em></a></li>

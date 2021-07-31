@@ -52,7 +52,7 @@
 
 
 <div class="banner">
-  <h1>Hello and welcome to the JDW Network</h1>
+  <h1>Welcome to the JDW Network</h1>
   <h2>What is the JDW Network?</h2>
 
   <p>

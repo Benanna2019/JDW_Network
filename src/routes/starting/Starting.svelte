@@ -102,7 +102,7 @@
     {@html html}
  </div>
   <div class="section-nav">
-    <h3>Grant Writers</h3>
+    <h3>Starting a Nonprofit Resources</h3>
     <ul>
       <li><a href="/legalities-of-starting-a-non-profit/">- <em>Legalities of Starting a Non-Profit</em></a></li>
       <li><a href="/non-profit-organization/">- <em>Non-Profit Organization</em></a></li>

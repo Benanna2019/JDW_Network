@@ -7,6 +7,8 @@ tag: 'public-relations-plan'
 slug: media-plan
 ---
 
+## Benefits of Creating a Media Plan
+
 A public relations, or PR, campaign allows you to control the spread of information about you and your business, creating a media narrative that positions you to attract customers without the expense of traditional advertising. 
 
 However, public relations doesn't happen all on its own. To create and implement a PR campaign, you need a comprehensive plan that your business can follow, measure, and improve on. 

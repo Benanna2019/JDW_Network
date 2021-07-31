@@ -7,6 +7,7 @@ tag: 'public-relations-plan'
 slug: public-relations-vs-marketing
 ---
 
+## Difference between Public Relations and Marketing
 
 Public Relations is a business tool that often gets confused with marketing or advertising. Though the two are related they are very distinct activities. There are four key differences between PR and marketing. These are appeal, control, credibility and repetition.
 

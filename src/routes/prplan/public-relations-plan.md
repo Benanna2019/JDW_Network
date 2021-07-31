@@ -7,6 +7,7 @@ tag: 'public-relations-plan'
 slug: public-relations-plan
 ---
 
+## Public Relations Plan & Business Presence
 
 Public relations is a great way to build your business’ image. Even if your business is well-established, there is no time like now for a fresh start. Creating a plan for your public relations strategies will keep you on track for leveraging your brand positioning and achieving your goals.
 

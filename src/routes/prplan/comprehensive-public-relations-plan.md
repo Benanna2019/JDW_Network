@@ -7,6 +7,8 @@ tag: 'public-relations-plan'
 slug: comprehensive-public-relations-plan
 ---
 
+## Creating a Public Relations Plan
+
 You’ve been asked to create a comprehensive PR plan. Maybe a three-year or five-year plan – you are either filled with excitement or anxiety – most likely, a mix of both.
 
 The goal of a comprehensive public relations plan usually falls into three buckets: a) to increase awareness for a company or organization entering new markets, b) to increase awareness for a company or organization experiencing a slow-down in market segments or to increase awareness of a new product or division.

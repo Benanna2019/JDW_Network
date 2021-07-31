@@ -7,7 +7,7 @@ tag: 'public-relations-plan'
 slug: what-is-a-public-service-announcement
 ---
 
-
+## Public Service Announcment Overview
 
 Public service announcements, or PSA's, are short messages produced on film or audio file and given to radio and television stations. Generally, PSA's are sent as ready-to-air audio or video files, although radio stations (especially community or public stations, such as campus radio or National Public Radio affiliates) sometimes prefer a script that their announcers can read live on the air. They can be done very simply with a single actor reading or performing a message, or they can be elaborate, slickly-produced messages with music, dramatic story-lines, and sound or visual effects.
 
