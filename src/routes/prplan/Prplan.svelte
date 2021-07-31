@@ -1,6 +1,6 @@
 <script>
     export let data, request; 
-    const { html, frontmatter, markdown } = data
+    const { html, frontmatter} = data
 </script>
 
 <svelte:head>
